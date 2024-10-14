@@ -21,12 +21,5 @@ def resize_image(input_dir, output_dir, width, height):
         else:
             print(f"Skipping file: {filename} (not an image)")
 
-if __name__ == "__main__":
-    # Use raw strings (r"") for all paths to avoid escape sequence issues
-    input_dir = r"H:\My Documents\My Pictures\Images - Python Project"  #input directory path
-    output_dir = r"H:\My Documents\My Pictures\Resized Images"  #output directory path
-    width = 375  # Desired width
-    height = 800  # Desired height
 
-    resize_image(input_dir, output_dir, width, height)
 
